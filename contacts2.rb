@@ -3,10 +3,12 @@ require 'formula'
 # Documentation: https://github.com/mxcl/homebrew/wiki/Formula-Cookbook
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-class Contacts < Formula
-  homepage ''
+class Contacts2 < Formula
+  homepage 'https://github.com/tgray/contacts'
   url 'https://github.com/tgray/contacts/archive/0.1.tar.gz'
-  sha1 'bc19e00dd287e71226c2f8289cd1fb7114bbfc5f'
+  sha1 'b39479a79f3c0ebc17d3564bfc9536ff5ae28719'
+
+  conflicts_with 'contacts', :because => 'contacts is no longer maintained and this formula replaces it.'
 
 
   def install
