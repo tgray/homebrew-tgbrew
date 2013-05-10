@@ -2,8 +2,9 @@ require 'formula'
 
 class Muttqt < Formula
   homepage 'https://github.com/tgray/muttqt'
-  url 'https://github.com/tgray/muttqt/archive/0.1.0b1.tar.gz'
-  sha1 'f409ec2a84ec0f6e00874af5746c28545926e3d0'
+  url 'https://github.com/tgray/muttqt/archive/0.1.0.tar.gz'
+  sha1 '97a1de6b8001e9c4b11386a58e3305b4151b5b34'
+  version '0.1.0'
 
   def install
     system "make"
