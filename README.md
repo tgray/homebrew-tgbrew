@@ -32,22 +32,22 @@ You can now use the brews like any other: `brew install foo` and so on.
 First you need to get your hands on the raw URL. For example, the raw url for
 the putmail formula is:
 
-`https://github.com/tgray/brewalt/raw/master/putmail.rb`
+    https://github.com/tgray/brewalt/raw/master/putmail.rb
 
 
 Pass that URL as a parameter to the `brew install` command, like so:
 
-`brew install https://github.com/tgray/brewalt/raw/master/putmail.rb`
+     brew install https://github.com/tgray/brewalt/raw/master/putmail.rb
 
 ## Cloning the Repository
 
 Clone the repository to somewhere that you'll remember:
 
-`git clone https://github.com/tgray/brewalt.git /usr/local/LibraryAlt`
+      git clone https://github.com/tgray/brewalt.git /usr/local/LibraryAlt
 
 This example creates a `LibraryAlt` directory under `/usr/local`.
 
 Then to install a formula pass the full path to the formula into the
 `brew install` command. Here's another example that installs princexml:
 
-`brew install /usr/local/LibraryAlt/putmail.rb`
+      brew install /usr/local/LibraryAlt/putmail.rb
