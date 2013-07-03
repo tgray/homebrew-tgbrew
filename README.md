@@ -3,9 +3,12 @@
 This repository contains UNOFFICIAL brews that have not been accepted
 into the master branch.
 
-These brews can be installed via the raw GitHub URLs, or by cloning this
-repository locally and installing off the local disk. For more details
-see the "using" section below.
+These brews can be installed:
+- via the raw GitHub URLs,
+- by cloning this repository locally and installing off the local disk,
+- or by tapping the repository.
+
+For more details see the "using" section below.
 
 It is maintained by Tim Gray and can be found at
 <https://github.com/tgray/brewalt>.
@@ -16,7 +19,13 @@ lifted from the one found in the link above.
 
 # Using
 
-There are two ways to install packages from this repository.
+There are three ways to install packages from this repository.
+
+## Taping the repository
+
+Just run `brew tap tgray/homebrew-tgbrew`.
+
+You can now use the brews like any other: `brew install foo` and so on.
 
 ## Using Raw URLs
 
