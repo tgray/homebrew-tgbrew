@@ -1,7 +1,7 @@
 require 'formula'
 
 class Ikiwiki < Formula
-  url 'http://ftp.de.debian.org/debian/pool/main/i/ikiwiki/ikiwiki_3.20110328.tar.gz'
+  url 'http://ftp.de.debian.org/debian/pool/main/i/ikiwiki/ikiwiki_3.20130518.tar.gz'
   homepage 'http://ikiwiki.info/'
   head 'git://git.ikiwiki.info/'
 
@@ -11,7 +11,7 @@ class Ikiwiki < Formula
   depends_on 'HTML::Scrubber' => :perl
 
   unless ARGV.build_head?
-    md5 '4ab9f64367c13957b1db19ed8240d6a9'
+    sha1 '96372c69c6e4a0cad3139603136207b8b88ee12e'
   end
 
   def caveats; <<-EOS.undent
