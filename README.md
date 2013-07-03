@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains UNOFFICIAL brews that have not been accepted
+This repository contains **UNOFFICIAL** brews that have not been accepted
 into the master branch.
 
 These brews can be installed:
@@ -48,6 +48,6 @@ Clone the repository to somewhere that you'll remember:
 This example creates a `LibraryAlt` directory under `/usr/local`.
 
 Then to install a formula pass the full path to the formula into the
-`brew install` command. Here's another example that installs princexml:
+`brew install` command. Here's another example that installs `princexml`:
 
       brew install /usr/local/LibraryAlt/putmail.rb
