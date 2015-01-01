@@ -21,7 +21,7 @@ lifted from the one found in the link above.
 
 There are three ways to install packages from this repository.
 
-## Taping the repository
+## Tapping the repository
 
 Just run `brew tap tgray/homebrew-tgbrew`.
 
@@ -37,16 +37,3 @@ the contacts formula is:
 Pass that URL as a parameter to the `brew install` command, like so:
 
 `brew install https://raw.github.com/tgray/homebrew-tgbrew/master/contacts2.rb`
-
-## Cloning the Repository
-
-Clone the repository to somewhere that you'll remember:
-
-`git clone https://github.com/tgray/homebrew-tgbrew.git /usr/local/LibraryAlt`
-
-This example creates a `LibraryAlt` directory under `/usr/local`.
-
-Then to install a formula pass the full path to the formula into the
-`brew install` command. Here's another example that installs `princexml`:
-
-      brew install /usr/local/LibraryAlt/putmail.rb
