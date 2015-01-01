@@ -5,8 +5,8 @@ require 'formula'
 
 class Contacts2 < Formula
   homepage 'https://github.com/tgray/contacts'
-  url 'https://github.com/tgray/contacts/archive/0.1.tar.gz'
-  sha1 'b061abd2ef02a4b0970fca03d29d6b020259a5dc'
+  url 'https://github.com/tgray/contacts/archive/0.2.tar.gz'
+  sha1 '4b2185e190da94be096d9aee8ed29ecfc72d9e7e'
 
   conflicts_with 'contacts', :because => 'contacts is no longer maintained and this formula replaces it.'
 
