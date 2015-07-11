@@ -6,7 +6,7 @@ class Putmail < Formula
   head 'git://github.com/tgray/putmail.git'
   
   unless ARGV.build_head?
-    sha256 '1f4e6f33496100ad89b8f029621fb78ab2f80258994c7cd8687fd46730df45be'
+    sha256 '8ec2e774c3fb0c23dd768b24b43a97bdaf592bd4a396cb9256b6f924e938f643'
   end
 
   def install
